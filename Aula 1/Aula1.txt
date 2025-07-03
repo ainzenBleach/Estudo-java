@@ -1,0 +1,59 @@
+como funciona a base do codigo java:
+
+public class OlaMundo {
+    public static void main(String[] args) {
+        System.out.println("Olá, mundo!");
+    }
+}
+
+- print da mensagem no prompt- Olá, mundo!
+
+( public class OlaMundo{} )
+
+- public - define que a classe pode ser acessada por qualquer outro codigo
+
+- class - define uma classe (estrutura básica)
+
+- OlaMundo - nome da classe (Deve ser igual o nome do arquivo - Primeira maiúscula)
+
+- Todo codigo em java deve ter essa estrutura basica, não é copdigo solto
+
+___________________________________________________________________________________________________________________________________________________________________________
+
+( public static void main(String[] args) {} )
+
+- public - deixa visivel para o java chamar
+
+- static - pode ser executado sem criar um objeto da classe
+
+- void - não retorno nada
+
+- main - nome fixo que o java procura para começar a executar o codigo
+
+- String[] args - é um vetor de argumentos que podem ser passados pela linha de comando
+
+- Todo programa java prescisa ter um metodo main se for rodar como aplicação
+
+___________________________________________________________________________________________________________________________________________________________________________
+
+( System.out.println("Olá, mundo!"); )
+
+- System - classe do sistema
+
+- out - um objeto que representa a saida no console
+
+- println() - metodo que imprime no console quebrando linha, dentro dos () a mensagem com ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+

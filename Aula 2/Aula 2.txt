@@ -1,0 +1,62 @@
+- Variaveis
+
+- Declarada dentro do metodo main
+tipo nomeDaVariavel = valor; 
+
+- tipo - Pode ser int, 
+
+- nomeDaVariavel - definir o nome para chamar
+
+- valor - pode ser numerico ou string
+
+___________________________________________________________________________________________________________________________________________________________________________
+
+Tipos primitivos em Java
+
+Numéricos inteiros:
+
+- java faz o armazenamento em 8 formas:
+
+- byte- 1 byte (-128 a 127)
+
+- shor - 2 byte (-32.768 a 32mil)
+
+- int- 4 byte (-2bi a 2bi)
+
+- long- 8 byte (números enormes)
+
+- Mais comum o uso do (int)
+
+___________________________________________________________________________________________________________________________________________________________________________
+
+Numéricos com casas decimais:
+
+- float- 4 byte (3.14f)
+
+- double- 8 byte (3.14159265359)
+
+- Mais comun o uso do (double)
+
+___________________________________________________________________________________________________________________________________________________________________________
+
+Outros:
+
+- char- um caractare ('A','1','#' - utilizar somente '') 
+
+- boolean - verdadeiro/falso ('true', 'false')
+
+O que não pode fazer:
+
+- Não misturar numero com texto
+
+- Utilizar '' no char
+
+- Valor booleano não é texto
+
+Boas práticas:
+
+- Utilizar nomes claros nas Variaveis
+
+- Começar com letra minúscula
+
+- sem usar acentos ou espaço
