@@ -1,4 +1,4 @@
-public class DesafioMedio {
+public class DesafioMedioVariavel {
     public static void main(String[] args) {
         char letraInicial = 'S';
         boolean estudando = true;

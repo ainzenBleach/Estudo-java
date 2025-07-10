@@ -1,0 +1,34 @@
+- Entrada de dados (scammer)
+
+scammer - class do java para ler entrada de dados.(deve ser importado por meio do: import java.util.Scanner;)
+ - lê número, texto e caractares.
+
+o scammer cria um bloco de codigo na qual deve ser chamado (Scanner input = new Scanner(System.in);) e fechado (input.close();)
+
+- chamado:
+
+Scanner input = new Scanner(System.in);
+
+-  Cria um leitor de entrada do teclado com entrada padrão dos dados (teclado)
+
+atribuindo no nome input, devera ser usado para atribuir um dado a alguma nome da variavel
+
+ex: string nome = input.nextLine();
+
+Lendo a entrada na linha somente para texto
+
+Outras entradas para usar com o "input"
+
+- input.nextLine(); → lê uma linha de texto
+
+- input.nextInt(); → lê um número inteiro
+
+- input.nextDouble(); → lê um número decimal
+
+- input.next().charAt(0); → lê um char (primeira letra digitada)
+
+e ao terminar de usar o scammer finalizar ele:
+
+input.close();
+
+- indicação de boas praticas.

@@ -1,4 +1,4 @@
-public class DesafioDificil {
+public class DesafioDificilVariavel {
     public static void main(String[] args) {
          String nome = "Samuel";
          int idade = 18;
