@@ -1,0 +1,93 @@
+- Decição de escolhas (if, else e switch)
+
+A escolha de decição se asemelha com a do JavaScript com o if e else:
+
+ex(sintaxe):
+
+    if (condicao) {
+        // código se for verdadeiro
+    } else if (outraCondicao) {
+        // código se a segunda condição for verdadeira
+    } else {
+        // código se nenhuma condição for verdadeira
+    }
+
+ex(Estrutura no codigo):
+
+    public class VerificaIdade {
+        public static void main(String[] args) {
+            Scanner input = new Scanner(System.in);
+
+            System.out.print("Digite sua idade: ");
+            int idade = input.nextInt();
+
+            if (idade >= 18) {
+                System.out.println("Você é maior de idade.");
+            } else {
+                System.out.println("Você é menor de idade.");
+            }
+
+            input.close();
+        }
+    }
+
+_______________________________________________________________________________________________________________
+
+- Switch:
+
+Utilizado em casos com varias decições, um estilo if elsem, mas resumido.
+
+ex(sintaxe):
+
+int opcao = 2;
+
+    switch (opcao) {
+        case 1:
+            System.out.println("Você escolheu 1");
+            break;
+        case 2:
+            System.out.println("Você escolheu 2");
+            break;
+        default:
+            System.out.println("Opção inválida");
+    }
+
+ex(Estrutura no codigo):
+
+public class DiasDaSemana {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Digite um número de 1 a 7: ");
+        int dia = input.nextInt();
+
+        switch (dia) {
+            case 1:
+                System.out.println("Domingo");
+                break;
+            case 2:
+                System.out.println("Segunda-feira");
+                break;
+            case 3:
+                System.out.println("Terça-feira");
+                break;
+            case 4:
+                System.out.println("Quarta-feira");
+                break;
+            case 5:
+                System.out.println("Quinta-feira");
+                break;
+            case 6:
+                System.out.println("Sexta-feira");
+                break;
+            case 7:
+                System.out.println("Sábado");
+                break;
+            default:
+                System.out.println("Número inválido");
+        }
+
+        input.close();
+    }
+}
+
