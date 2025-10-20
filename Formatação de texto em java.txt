@@ -1,0 +1,22 @@
+- Formatação dos texto no terminal
+
+    System.out.printf() != System.out.println()
+
+O uso do System.out.printf() para ter a formação do texto com os valores que deseja.
+    ex(sintaxe):
+
+    System.out.printf("Texto com marcador: %tipo", valor);
+
+    - Com a utilização do % para deixar o texto marcado ao valor atribuido por uma variavel, depois da virgula.
+
+    Para poder formatar de maneira direfente podemos usar:
+
+    %d	Inteiro	%d -> System.out.printf("%d", 25)
+
+    %f	Decimal (float/double)	%.2f -> 2 casas decimais
+
+    %s	String	System.out.printf("%s", nome)
+
+    %n	Quebra de linha (equiv. ao \n, mas universal)	
+
+    %.2f, %.3f, etc. para definir a quantidade de casas decimais.

@@ -1,0 +1,37 @@
+- Arrays
+
+Modelo de armazenamento na qual se guarda valores predeterminado em uma variavel, um array guarda só um tipo de dado.
+
+Para criar um Arrays dev ser seguido de sua classe (string, int, float) junto com [], nome da variavel
+e atribuição pode ser feita de duas maneiras:
+
+- Primeiro(Direta)
+    String[] nomes = {"Sam", "João", "Lia"};
+
+- Segunda(complementando)
+    String[] nomes = new String[3]; // espaço pra 3 nomes
+    nomes[0] = "Sam";
+    nomes[1] = "João";
+    nomes[2] = "Lia";
+
+Para ser criado umalista na qual possa ser feito a incrementação de itens de quantidade aleatorio,
+usamos o ArrayList.
+- Biblioteca dinamica do java
+- Pode adicionar e remover itens a qualquer momento
+
+Usando: import java.util.ArrayList;
+
+- Criar a lista:
+    ArrayList<(Tipo da informação(int, string...))> (nome da variavel) = new ArrayList<>();
+
+- Adicionar itens no array:
+    (nome da variavel).add(informação);
+
+- Remover itens no array:
+    (nome da variavel).remove(indice)
+
+- Acessar o item no array:
+    (nome da variavel).get(indice);
+
+-Acessar o lenght da lista
+    (nome da variavel).size()

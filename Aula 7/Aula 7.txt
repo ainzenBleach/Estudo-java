@@ -1,0 +1,28 @@
+- Funções em Java
+
+Funções executam tarefas específicas que podem receber e retornar dados, esse dados podem ser vazios.
+
+A estrutura da função é:
+
+ex(Estrutura):
+
+    modificador tipoRetorno nomeMetodo(parâmetros) {
+    // código a ser executado
+    }
+
+ex(codigo):
+    - Sem parâmetro
+    public static void saudacao() {
+        System.out.println("Olá, bem-vindo!");
+    }
+
+    - Com parâmetro
+    public static int somar(int a, int b) {
+        return a + b;
+    }
+
+Para chamar as funções pode ser feita da seguinte forma:
+
+    saudacao(); // sem retorno
+    int resultado = somar(5, 3); // com retorno
+    System.out.println("Resultado: " + resultado);
